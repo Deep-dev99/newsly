@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsly</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="h-100vh">
+      <div class="bg-gray h-100">
+        <div class="row px-0 mx-auto m-0 h-100">
+          <div
+            class="col-lg-5 col-12 h-100 position-relative px-5 d-lg-flex flex-column d-none">
+            <div class="pt-3">
+              <img src="img/logo.png" alt="" />
+              <div>
+                <div class="swiper mySwiper">
+                  <div id="title" class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-auto">
+              <div class="swiper mySwiper">
+                <div id="description" class="swiper-wrapper">
+                  <!-- <div class="swiper-slide">
+                    <p class="mb-0 text-gray pe-5">
+                  
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-12 p-0 bg-white position-relative h-100">
+            <div class="m-2 d-block d-lg-none"><img src="img/logo.png" alt="" /></div> 
+            <div class="w-100 h-70 px-2 p-lg-0">
+                
+              <div class="swiper mySwiper">
+                <div id="image" class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <span class="loader mt-5"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex gap-2 m-2">
+                <div class="custom-prev primary-btn">
+                  <img src="img/perv.svg" alt="" />
+                </div>
+                <div class="custom-next primary-btn">
+                  <img src="img/next.svg" alt="" />
+                </div>
+              </div>
+              <div class="d-lg-none d-block mx-2">
+                <div class="swiper mySwiper">
+                  <div id="title2" class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                  </div>
+                </div>
+                <div class="swiper mySwiper">
+                  <div id="description2" class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                    <p class="mb-0 text-gray pe-5">
+                  
+                    </p>
+                  </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fs-100 m-0 bottom-0 end-0 position-absolute bottom-5 d-none d-lg-block">
+                Latest news
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
