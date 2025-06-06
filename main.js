@@ -12,16 +12,16 @@ let desArr = []
 let placeholderImage = "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-scaled-1150x647.png"
 // console.log(newsValue);
 // let apiKey = `https://newsapi.org/v2/everything?q=${value}&apiKey=be1981aebd86456395c70feeb50522ea`
-let apiKey = "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=e02fabace8c352d34b3393a529ce6b3a"
+let apiKey = "https://gnews.io/api/v4/top-headlines?category=cars&lang=en&country=us&max=10&apikey=e02fabace8c352d34b3393a529ce6b3a"
 
 async function getNews() {
   try {
     const response = await fetch(apiKey);
     const data = await response.json();
     const newsData = data.articles;
-  
+
     console.log(newsData);
- 
+
     newsData.forEach(news => {
       const newsItem = {
         urlimage: news.image || placeholderImage,
