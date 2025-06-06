@@ -118,6 +118,10 @@ body {
 @media screen and (max-width: 992px) {
 .h-70 {
   height: 50%;
+  
+}
+.bg-gray{
+background-color: transparent;
 }
 }
 @keyframes rotation {
