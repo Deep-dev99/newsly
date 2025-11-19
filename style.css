@@ -36,7 +36,9 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.card{
+  background-color: var(--bg-color);
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -89,7 +91,9 @@ body {
 .curser {
   cursor: pointer;
 }
-
+.w-fit{
+  width: fit-content;
+}
 /* loader */
 .loader {
   width: 48px;
@@ -114,15 +118,22 @@ body {
   border: 3px solid transparent;
   border-bottom-color: var(--primary-clr);
 }
-
+/* card */
+/* .card-img1{
+height: 200px;
+width: 200px;
+} */
+.bg-gray2{
+  background-color: var(--bg-color);
+}
 @media screen and (max-width: 992px) {
-.h-70 {
-  height: 50%;
-  
-}
-.bg-gray{
-background-color: transparent;
-}
+  .h-70 {
+    height: 50%;
+  }
+  .bg-gray {
+    background-color: transparent;
+  }
+
 }
 @keyframes rotation {
   0% {
